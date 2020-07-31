@@ -2,30 +2,30 @@
 # yarn lockfile v1
 
 
-"@araclx/husky@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@araclx/husky/-/husky-0.0.5.tgz#4048ac236269abbc50613b9b1470b2af1818cd26"
-  integrity sha512-RyCiC7nNhmGgoHRTxCib57Q+VAzce1WHdvMREDlNmjm5kg1simCNzInSwm8ZFlMfUP6Gw91eXjytZiDL3eZ5EQ==
+"@araclx/husky@latest":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@araclx/husky/-/husky-0.0.8.tgz#583a6f9cbcc8a522eea8b644766b75c386ed0f9c"
+  integrity sha512-StqFmd+7PtFa75n1EnR3xbuVD/lvT4UMtMotetgoMbB3M3bcvuM+Vf8V28iuAoS8cKCTtvORFEnGkDOODC0RBg==
   dependencies:
     "@commitlint/cli" "^9.1.1"
     "@commitlint/config-conventional" "^9.1.1"
     husky "^4.2.5"
     precise-commits "^1.0.2"
 
-"@araclx/prettier@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@araclx/prettier/-/prettier-0.0.4.tgz#fd5df0bbe6d6262a7a4c05b65638fc5ea1cd3679"
-  integrity sha512-lVME9kZ5pI5GhObHb4M9iYYwKht0NjISr5qfM6dMJc8I1XKVYm5Z/ehlSZhIz/JFhp0i/v0Lbtyg5+NZ/la9EQ==
+"@araclx/prettier-config@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@araclx/prettier-config/-/prettier-config-0.0.7.tgz#67704b1fc0918f0e6ce0e9d1f541173c3d746385"
+  integrity sha512-emsYyTxlbGF2kItlLkTSLJ/B1FD9Mw9WnqgATTpo6SUj1HrMEBy7fnQ2p2TuVlGI61fbR8DpbaCqr/+I42OePA==
   dependencies:
     prettier "^2.0.5"
     prettier-plugin-package "^1.0.0"
     prettier-plugin-properties "^0.1.0"
     prettier-plugin-sh "^0.5.0"
 
-"@araclx/semantic-release@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@araclx/semantic-release/-/semantic-release-0.1.2.tgz#2651f8351ec71aa7f402494117d76a3e4d8fb191"
-  integrity sha512-uaEHBPngkvNh2uacFDU9Q/gtjddSY7AsOtol+oOkP+WFgQvrqO2/fNXtM4HolQSgZiIQSNj/EfIPfLPUwKZ1hw==
+"@araclx/semantic-release@latest":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@araclx/semantic-release/-/semantic-release-0.1.5.tgz#8962d0593ad072d0f1e5bd1348a2d743f0d5c2c5"
+  integrity sha512-LDY5c1J57UVeAob+/wpqrwz7RwBipyayoekleKftTqzOQBdPT2E0/95norrMX+8FkBf9rC6hxfdzTT86OxX08Q==
   dependencies:
     "@semantic-release/changelog" "^5.0.1"
     "@semantic-release/commit-analyzer" "^8.0.1"
@@ -5766,6 +5766,11 @@ prettier-plugin-package@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/prettier-plugin-package/-/prettier-plugin-package-1.0.0.tgz#164a400f5b695246835b94c7e1b65ea253d67bdc"
   integrity sha512-flbKuLB7ftrW2zQYJjb0mF6zY7R0jDrYatpr0BBNj04Eb+g1RLbquOQSJE1LffDZfzU03fwJQ74grqQjQjYa3Q==
+
+prettier-plugin-pkg@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/prettier-plugin-pkg/-/prettier-plugin-pkg-0.8.0.tgz#379ca5c21a08e8e978a9d0ee0220fe9db36908f7"
+  integrity sha512-o0+gQDn7yQHFB4k667+aZLDuXlefCDzH00A+ExBlHx//CB9Wuj1lw935Hqu0PxGu+PXItsWlIr/wJZmdi8SGeg==
 
 prettier-plugin-properties@^0.1.0:
   version "0.1.0"

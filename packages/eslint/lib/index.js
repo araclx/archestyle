@@ -7,22 +7,22 @@ module.exports = eslint;
 
 const eslint = {
   extends: [
-    './rules/best-practices',
-    './rules/errors',
-    './rules/es6',
-    './rules/imports',
-    './rules/node',
-    './rules/strict',
-    './rules/style',
-    './rules/variables',
-    './rules/unicorn',
-    './rules/typescript'
-  ]
+    "./rules/best-practices",
+    "./rules/errors",
+    "./rules/es6",
+    "./rules/imports",
+    "./rules/node",
+    "./rules/strict",
+    "./rules/style",
+    "./rules/variables",
+    "./rules/unicorn",
+    "./rules/typescript",
+  ],
   parser: "@typescript-eslint/parser",
-  parserOptions: { sourceType: "module" }
+  parserOptions: { sourceType: "module" },
   plugins: [
-    '@typescript-eslint',
+    "@typescript-eslint",
     // https://github.com/sindresorhus/eslint-plugin-unicorn
-    'unicorn'
-  ]
+    "unicorn",
+  ],
 };

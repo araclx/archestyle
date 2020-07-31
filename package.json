@@ -13,9 +13,10 @@
   "license": "MIT",
   "devDependencies": {
     "@araclx/husky": "latest",
-    "@araclx/prettier-config": "latest",
+    "@araclx/prettier-config": "^0.0.7",
     "@araclx/semantic-release": "latest",
-    "lerna": "3.22.1"
+    "lerna": "3.22.1",
+    "prettier": "^2.0.5"
   },
   "publishConfig": {
     "access": "public"
