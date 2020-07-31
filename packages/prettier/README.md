@@ -14,13 +14,10 @@ $ npm install --save-dev @araclx/prettier-config
 
 ### Usage
 
-`.prettierrc.js`
+`.prettierrc.json`
 
-```js
-module.exports = {
-  ...require("@araclx/prettier-config"),
-  semi: false,
-};
+```json
+"@araclx/prettier-config"
 ```
 
 ### License
