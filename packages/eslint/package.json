@@ -1,0 +1,28 @@
+{
+  "name": "@araclx/eslint",
+  "version": "0.0.3",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "Jakub Olan <jakub.olan001@gmail.com>",
+  "license": "ISC",
+  "main": "lib/eslint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARACLX/stylx.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ARACLX/stylx/issues"
+  },
+  "homepage": "https://github.com/ARACLX/stylx#readme",
+  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+}

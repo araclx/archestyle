@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json.schemastore.org/package",
+  "name": "@araclx/stylx",
+  "description": "Approach to building software by ARACLX.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/ARACLX/stylx.git",
+  "author": "Jakub Olan <jakub.olan001@gmail.com>",
+  "scripts": {
+    "release": "lerna publish patch --yes --concurrency 6 --temp-tag",
+    "commit": "npx git-cz"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@araclx/husky": "^0.0.5",
+    "@araclx/prettier": "^0.0.4",
+    "@araclx/semantic-release": "^0.1.2",
+    "lerna": "^3.22.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
