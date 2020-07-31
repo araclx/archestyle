@@ -12,10 +12,11 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@araclx/husky": "^0.0.5",
-    "@araclx/prettier": "^0.0.4",
-    "@araclx/semantic-release": "^0.1.2",
-    "lerna": "3.22.1"
+    "@araclx/husky": "latest",
+    "@araclx/prettier-config": "^0.0.7",
+    "@araclx/semantic-release": "latest",
+    "lerna": "3.22.1",
+    "prettier": "^2.0.5"
   },
   "publishConfig": {
     "access": "public"
