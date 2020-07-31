@@ -9,10 +9,7 @@
   },
   "main": "lib/index.json",
   "dependencies": {
-    "prettier": "^2.0.5",
-    "prettier-plugin-package": "^1.0.0",
-    "prettier-plugin-properties": "^0.1.0",
-    "prettier-plugin-sh": "^0.5.0"
+    "prettier": "^2.0.5"
   },
   "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
 }
