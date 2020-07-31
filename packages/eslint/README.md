@@ -5,11 +5,11 @@
 ### Installation
 
 ```
-$ yarn add @araclx/eslint eslint -D
+$ yarn add @araclx/eslint-config eslint -D
 ```
 
 ```
-$ npm install --save-dev @araclx/eslint eslint
+$ npm install --save-dev @araclx/eslint-config eslint
 ```
 
 ### Usage
@@ -18,7 +18,7 @@ Create file named `.eslintrc.json` with following content.
 
 ```json
 {
-  "extends": "@araclx/eslint"
+  "extends": "@araclx/eslint-config"
 }
 ```
 

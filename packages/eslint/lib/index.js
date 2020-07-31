@@ -3,6 +3,7 @@
 module.exports = eslint;
 
 // TODO: React.js Support
+// TODO: Add Prettier Support
 
 const eslint = {
   extends: [

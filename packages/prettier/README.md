@@ -5,21 +5,22 @@
 ### Installation
 
 ```
-$ yarn add @araclx/prettier -D
+$ yarn add @araclx/prettier-config -D
 ```
 
 ```
-$ npm install --save-dev @araclx/prettier
+$ npm install --save-dev @araclx/prettier-config
 ```
 
 ### Usage
 
-`.prettierrc.json`
+`.prettierrc.js`
 
-```json
-{
-  "extends": "@araclx/prettier"
-}
+```js
+module.exports = {
+  ...require("@araclx/prettier-config"),
+  semi: false,
+};
 ```
 
 ### License
