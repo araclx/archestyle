@@ -24,5 +24,9 @@
     "url": "https://github.com/ARACLX/stylx/issues"
   },
   "homepage": "https://github.com/ARACLX/stylx#readme",
-  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1"
+  }
 }
