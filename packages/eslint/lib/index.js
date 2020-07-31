@@ -14,11 +14,14 @@ const eslint = {
     './rules/strict',
     './rules/style',
     './rules/variables',
+    './rules/unicorn',
     './rules/typescript'
   ]
   parser: "@typescript-eslint/parser",
   parserOptions: { sourceType: "module" }
   plugins: [
-    '@typescript-eslint'
+    '@typescript-eslint',
+    // https://github.com/sindresorhus/eslint-plugin-unicorn
+    'unicorn'
   ]
 };
