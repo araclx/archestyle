@@ -16,7 +16,7 @@
 		"@araclx/husky": "latest",
 		"@araclx/prettier-config": "latest",
 		"@araclx/semantic-release": "latest",
-		"eslint": "^7.6.0",
+		"eslint": "7.6.0",
 		"lerna": "latest",
 		"prettier": "latest"
 	},
