@@ -1,6 +1,6 @@
 {
   "name": "@araclx/semantic-release",
-  "version": "0.1.5",
+  "version": "0.1.6-alpha.0",
   "description": "semantic-release configuration designed for needs of ARACLX",
   "author": "Jakub Olan <jakub.olan001@gmail.com>",
   "homepage": "https://github.com/ARACLX/styleguide#readme",

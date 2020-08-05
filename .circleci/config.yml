@@ -22,11 +22,10 @@ jobs:
          - node/install-packages:
               app-dir: ~/stylx
               pkg-manager: yarn
-         # TODO: Design solution to deal with fucking monorepo.
          - run:
               name: Authenticate with registry
-              command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/stylx/packages/prettier/.npmrc
-         - run: cd ~/stylx/packages/prettier && npm publish
+              command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/stylx/.npmrc
+         - run: yarn release
 
 workflows:
    publish:

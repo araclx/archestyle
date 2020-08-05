@@ -8,7 +8,8 @@
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"scripts": {
 		"postinstall": "lerna bootstrap",
-		"release": "lerna publish from-package -y -c",
+		"version:prepatch": "lerna version prepatch -y --no-push",
+		"release": "lerna publish from-package -y",
 		"commit": "npx git-cz"
 	},
 	"license": "MIT",
