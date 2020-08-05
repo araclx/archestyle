@@ -10,8 +10,8 @@ executors:
 
 jobs:
    publish:
+      working_directory: ~/stylx
       executor: node
-      working_directory: ~/avenor
       steps:
          - checkout
          - node/install:
@@ -20,15 +20,15 @@ jobs:
          - run: node --version
          - run: yarn --version
          - node/install-packages:
-              app-dir: ~/avenor
+              app-dir: ~/stylx
               pkg-manager: yarn
-         - run: lerna bootstrap
+         # TODO: Design solution to deal with fucking monorepo.
          - run:
               name: Authenticate with registry
-              command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
-         - run: lerna publish from-package -y -c
+              command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/stylx/packages/prettier/.npmrc
+         - run: cd ~/stylx/packages/prettier && npm publish
 
 workflows:
-   tests:
+   publish:
       jobs:
          - publish

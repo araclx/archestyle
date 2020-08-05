@@ -7,7 +7,8 @@
 	"repository": "https://github.com/ARACLX/stylx.git",
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"scripts": {
-		"release": "lerna publish patch --yes --concurrency 6 --temp-tag",
+		"postinstall": "lerna bootstrap",
+		"release": "lerna publish from-package -y -c",
 		"commit": "npx git-cz"
 	},
 	"license": "MIT",
