@@ -1,13 +1,20 @@
 {
 	"name": "@araclx/tsconfig",
-	"version": "0.0.10-alpha.0",
+	"version": "0.0.10-alpha.1",
 	"description": "General TSConfig Adopted by ARACLX for building TypeScript-based projects.",
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"homepage": "https://github.com/ARACLX/styleguide#readme",
 	"license": "MIT",
-	"main": "lib/index.json",
+	"main": "tsconfig.json",
 	"files": [
-		"lib/index.json"
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
 	],
 	"repository": {
 		"type": "git",
