@@ -1,15 +1,15 @@
 {
-  "name": "@araclx/prettier-config",
-  "version": "0.0.8",
-  "private": false,
-  "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/araclx/styleguide.git"
-  },
-  "main": "lib/index.json",
-  "dependencies": {
-    "prettier": "^2.0.5"
-  },
-  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+	"name": "@araclx/prettier-config",
+	"version": "0.0.9",
+	"private": false,
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/araclx/styleguide.git"
+	},
+	"main": "lib/index.json",
+	"dependencies": {
+		"prettier": "^2.0.5"
+	},
+	"gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
 }
