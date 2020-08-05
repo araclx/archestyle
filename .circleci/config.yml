@@ -6,7 +6,7 @@ orbs:
 executors:
    node:
       docker:
-         - image: cimg/node:lts
+         - image: cimg/base:2020.01
 
 jobs:
    publish:
@@ -26,9 +26,9 @@ jobs:
          - run:
               name: Authenticate with registry
               command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/repo/.npmrc
-         - run: lerna publish from-package -y -c
+         - run: yarn run release
 
 workflows:
-   tests:
+   publish:
       jobs:
          - publish
