@@ -1,17 +1,17 @@
 {
-  "name": "@araclx/tsconfig",
-  "version": "0.0.8",
-  "description": "General TSConfig Adopted by ARACLX for building TypeScript-based projects.",
-  "author": "Jakub Olan <jakub.olan001@gmail.com>",
-  "homepage": "https://github.com/ARACLX/styleguide#readme",
-  "license": "MIT",
-  "main": "lib/index.json",
-  "files": [
-    "lib/index.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ARACLX/stylx.git"
-  },
-  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+	"name": "@araclx/tsconfig",
+	"version": "0.0.9",
+	"description": "General TSConfig Adopted by ARACLX for building TypeScript-based projects.",
+	"author": "Jakub Olan <jakub.olan001@gmail.com>",
+	"homepage": "https://github.com/ARACLX/styleguide#readme",
+	"license": "MIT",
+	"main": "lib/index.json",
+	"files": [
+		"lib/index.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ARACLX/stylx.git"
+	},
+	"gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
 }
