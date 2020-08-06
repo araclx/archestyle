@@ -1,6 +1,6 @@
 {
 	"name": "@araclx/tsconfig",
-	"version": "0.0.10-alpha.1",
+	"version": "0.0.11",
 	"description": "General TSConfig Adopted by ARACLX for building TypeScript-based projects.",
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"homepage": "https://github.com/ARACLX/styleguide#readme",

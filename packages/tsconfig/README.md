@@ -5,18 +5,15 @@ it is, but it doesn't stop you to have a bare configuration suitable for your ne
 don't want use in your project configuration but base configuration will be always same, at fact it provides less
 problems with migrations to newer Node.js versions.
 
-If you don't like multiple errors that help you keep your code healthy you can use also second `tsconfig` build by
-ARACLX that are suitable for projects that are made on the fly and don't need high quality of code. -
-`@araclx/tsconfig-lite`.
 
 ### Installation
 
 ```
-$ yarn add @araclx/tsconfig -D
+$ yarn add @araclx/tsconfig typescript -D
 ```
 
 ```
-$ npm install --save-dev @araclx/tsconfig
+$ npm install --save-dev @araclx/tsconfig typescript
 ```
 
 ### Usage
@@ -25,14 +22,13 @@ $ npm install --save-dev @araclx/tsconfig
 {
 	"extends": "@araclx/tsconfig",
 	"compilerOptions": {
-		"outDir": "dist",
 		"target": "ES2018",
 		"lib": ["ES2018"]
 	}
 }
 ```
 
-Optionally, when you don't want to use strict type-checking.
+Optionally, when you want to use strict type-checking.
 
 ```json
 {
@@ -41,9 +37,9 @@ Optionally, when you don't want to use strict type-checking.
 		"outDir": "dist",
 		"target": "ES2018",
 		"lib": ["ES2018"],
-		"noUnusedParameters": false,
-		"noUnusedLocals": false,
-		"noImplicitAny": false
+		"noUnusedParameters": true,
+		"noUnusedLocals": true,
+		"noImplicitAny": true
 	}
 }
 ```
