@@ -9,11 +9,13 @@
 	"private": false,
 	"main": "lib/index.json",
 	"dependencies": {
+		"@araclx/xo-config": "^0.0.1",
 		"@commitlint/cli": "^9.1.1",
 		"@commitlint/config-conventional": "^9.1.1",
 		"eslint": "^7.5.0",
 		"husky": "^4.2.5",
-		"precise-commits": "^1.0.2"
+		"precise-commits": "^1.0.2",
+		"xo": "^0.32.1"
 	},
 	"gitHead": "fa9223d9192ddf8d0bf547e5b10aa7948ece6f24"
 }
