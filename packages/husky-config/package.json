@@ -1,6 +1,6 @@
 {
 	"name": "@araclx/husky-config",
-	"version": "0.0.9-alpha.0",
+	"version": "0.0.12",
 	"description": "",
 	"repository": {
 		"type": "git",
@@ -15,5 +15,5 @@
 		"husky": "^4.2.5",
 		"precise-commits": "^1.0.2"
 	},
-	"gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+	"gitHead": "fa9223d9192ddf8d0bf547e5b10aa7948ece6f24"
 }
