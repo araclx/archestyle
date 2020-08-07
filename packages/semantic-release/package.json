@@ -1,35 +1,32 @@
 {
-  "name": "@araclx/semantic-release",
-  "version": "0.1.6-alpha.0",
-  "description": "semantic-release configuration designed for needs of ARACLX",
-  "author": "Jakub Olan <jakub.olan001@gmail.com>",
-  "homepage": "https://github.com/ARACLX/styleguide#readme",
-  "license": "MIT",
-  "main": "lib/index.json",
-  "files": [
-    "lib/index.json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ARACLX/stylx.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
-  "bugs": {
-    "url": "https://github.com/ARACLX/stylx/issues"
-  },
-  "peerDependencies": {
-    "semantic-release": "^17.1.1"
-  },
-  "dependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.0.7",
-    "@semantic-release/npm": "^7.0.5",
-    "@semantic-release/release-notes-generator": "^9.0.1",
-    "commitizen": "^4.1.2"
-  },
-  "gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
+	"name": "@araclx/semantic-release",
+	"version": "0.1.6-alpha.0",
+	"description": "semantic-release configuration designed for needs of ARACLX",
+	"author": "Jakub Olan <jakub.olan001@gmail.com>",
+	"homepage": "https://github.com/ARACLX/styleguide#readme",
+	"license": "MIT",
+	"main": "lib/index.json",
+	"files": [
+		"lib/index.json"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ARACLX/stylx.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ARACLX/stylx/issues"
+	},
+	"peerDependencies": {
+		"semantic-release": "^17.1.1"
+	},
+	"dependencies": {
+		"@semantic-release/changelog": "^5.0.1",
+		"@semantic-release/commit-analyzer": "^8.0.1",
+		"@semantic-release/git": "^9.0.0",
+		"@semantic-release/github": "^7.0.7",
+		"@semantic-release/npm": "^7.0.5",
+		"@semantic-release/release-notes-generator": "^9.0.1",
+		"commitizen": "^4.1.2"
+	},
+	"gitHead": "44774d821de437ec89b8e8a8bebe9b3d3508f5bb"
 }
