@@ -14,7 +14,7 @@
 	},
 	"license": "MIT",
 	"devDependencies": {
-		"@araclx/eslint-config": "^0.0.4",
+		"@araclx/eslint-config": "0.0.4",
 		"@araclx/husky": "latest",
 		"@araclx/prettier-config": "latest",
 		"@araclx/semantic-release": "latest",

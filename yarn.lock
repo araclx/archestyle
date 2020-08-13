@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@araclx/eslint-config@^0.0.4":
+"@araclx/eslint-config@0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@araclx/eslint-config/-/eslint-config-0.0.4.tgz#fd127ceca50dc6d2f8e7bfc3d77a162502c528e9"
   integrity sha512-O/9oB9e9wFuVACp/Q66LNN6qsioTM9s0+gcswF0VMjdVyB3BEyNsrs+7FYdOVSh39jAq8y0X3QOnew18ieoVtw==
