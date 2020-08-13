@@ -15,7 +15,7 @@
 		"eslint": "^7.5.0",
 		"husky": "^4.2.5",
 		"precise-commits": "^1.0.2",
-		"xo": "^0.32.1"
+		"xo": "^0.33.0"
 	},
 	"gitHead": "fa9223d9192ddf8d0bf547e5b10aa7948ece6f24"
 }
