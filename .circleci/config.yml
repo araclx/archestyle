@@ -24,7 +24,7 @@ jobs:
       override-ci-command: yarn --frozen-lockfile
    - run:
       name: Authenticate with registry
-      command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/humantic/.npmrc
+      command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/archestyle/.npmrc
    - run: yarn run lerna publish from-package -y
 
 workflows:
