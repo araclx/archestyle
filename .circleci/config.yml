@@ -10,7 +10,7 @@ executors:
 
 jobs:
  publish:
-  working_directory: ~/humantic
+  working_directory: ~/archestyle
   executor: node
   steps:
    - checkout
@@ -18,15 +18,14 @@ jobs:
       install-yarn: true
       lts: true
    - node/install-yarn
-   - run: node --version
-   - run: yarn --version
    - node/install-packages:
-      app-dir: ~/humantic
+      app-dir: ~/archestyle
       pkg-manager: yarn
+      override-ci-command: yarn --frozen-lockfile
    - run:
       name: Authenticate with registry
-      command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/stylx/.npmrc
-   - run: yarn release
+      command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/humantic/.npmrc
+   - run: yarn run lerna publish from-package -y
 
 workflows:
  publish:
