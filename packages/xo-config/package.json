@@ -1,6 +1,6 @@
 {
 	"name": "@araclx/xo-config",
-	"version": "0.0.1-alpha.0",
+	"version": "0.0.2",
 	"description": "> TODO: description",
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"homepage": "https://github.com/ARACLX/archestyle#readme",
@@ -19,5 +19,11 @@
 	"bugs": {
 		"url": "https://github.com/ARACLX/archestyle/issues"
 	},
-	"gitHead": "fa9223d9192ddf8d0bf547e5b10aa7948ece6f24"
+	"gitHead": "fa9223d9192ddf8d0bf547e5b10aa7948ece6f24",
+	"dependencies": {
+		"eslint-plugin-prettier": "^3.1.4"
+	},
+	"peerDependencies": {
+		"xo": "^0.33.0"
+	}
 }
