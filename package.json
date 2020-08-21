@@ -7,7 +7,7 @@
 	"repository": "https://github.com/ARACLX/stylx.git",
 	"author": "Jakub Olan <jakub.olan001@gmail.com>",
 	"scripts": {
-		"postinstall": "lerna bootstrap",
+		"postinstall": "lerna bootstrap --stream",
 		"version:prepatch": "lerna version prepatch -y --no-push",
 		"release": "lerna publish from-package -y",
 		"commit": "npx git-cz"
