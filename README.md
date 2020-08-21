@@ -22,10 +22,13 @@ We're not planning to use JavaScript in our applications so writing linters for 
 
 ### Contents of Repository
 
-- `@araclx/xo-config`
-- `@araclx/prettier-config`
-- `@araclx/tsconfig`
-- `@araclx/semantic-release`
-- `@araclx/husky-config`
+- `eslint` Configuration
+  - `eslint-config` for monorepos and `typescript-node`/`typescript-react` applications.
+  - `eslint-base` for `node`-based monorepos and `typescript-node` applications.
+- `xo` Configuration
+  - `xo-config` for general usage at different kinds of applications.
+  - `xo-config-base` for `typescript-node` usage without support for `react`.
+- `prettier-config` for general styling.
+- `semantic-release` for release configuration.
 
 # }
