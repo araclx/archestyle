@@ -1,6 +1,6 @@
 {
 	"name": "@araclx/eslint-config-base",
-	"version": "0.32.1",
+	"version": "0.0.2",
 	"description": "ESLint shareable config for XO",
 	"license": "MIT",
 	"repository": "xojs/eslint-config-xo",
