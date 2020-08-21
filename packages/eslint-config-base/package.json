@@ -17,9 +17,9 @@
 		"test": "ava"
 	},
 	"files": [
-		"index.js",
-		"esnext.js",
-		"browser.js"
+		"lib/index.js",
+		"lib/esnext.js",
+		"lib/browser.js"
 	],
 	"keywords": [
 		"❤️",
