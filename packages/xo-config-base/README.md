@@ -3,6 +3,10 @@
 `xo` configuration adopted by ARACLX Foundation to make our releases and commuting more transparent and suitable for
 developers.
 
+### Known Bug
+
+This package may need to instal some eslint plguins, we're working to precise this configuration.
+
 ### Installation
 
 ```
