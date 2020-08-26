@@ -1,6 +1,6 @@
 {
 	"name": "@araclx/eslint-config",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"description": "ESlint configuration desgined by @araclx dedicated for TypeScript Node.js Applications.",
 	"license": "MIT",
 	"authors": [
