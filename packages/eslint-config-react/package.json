@@ -1,6 +1,7 @@
 {
 	"name": "@araclx/eslint-config-react",
 	"version": "0.0.1",
+	"private": true,
 	"description": "",
 	"license": "MIT",
 	"repository": "xojs/eslint-config-xo-react",
